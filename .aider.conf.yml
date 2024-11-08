@@ -1,0 +1,11 @@
+read-only:
+  -- do_not_touch.py
+model: codestral/codestral-latest
+editor-model: codetral/codestral-latest
+architect: true
+read:
+  -- rules.md
+  -- prompt.md
+
+
+
