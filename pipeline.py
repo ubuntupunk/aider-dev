@@ -30,13 +30,13 @@ def ask_question_and_save_results():
 
         #Check if the response was successful
         if response.status_code == 200:
-            #Parse the response jsON
+            #Parse the response JSON
             response_json = response.json()
 
         # Save the result to the specified file
 
             with open(file_name, 'w') as file:
-                json_dump(respone.json, file, indents=1)
+                json_dump(response.json, file, indents=1)
                 print("results save in (file_name)")
         else:
            print(f"Error: {response.status_code} - {response.text}") 
