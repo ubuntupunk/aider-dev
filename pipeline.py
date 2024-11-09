@@ -4,8 +4,8 @@ import requests
 def ask_question_and_save_results():
 
     #user input for the question and the file name
-    question = input("Enter the question: ")
-    file_name = input("Entering the file name: ")
+    question = input("Enter your question: ")
+    file_name = input("Enter the file name: ")
 
     #define API details
     url = ""
@@ -20,8 +20,8 @@ def ask_question_and_save_results():
         "inputs": json.dumps({
             "input_1" : question
         }),
-    "pipeline_name" : "untitled_pipeline_copy", #you can
-    "user_name" : "ubuntupunk",      
+    "pipeline_name" : "untitled_pipeline_copy", #you should edit this
+    "user_name" : "<your vectorshift username>",      
     }
 
     try: 
