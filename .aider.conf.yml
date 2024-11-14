@@ -1,7 +1,7 @@
 read-only:
   -- do_not_touch.py
 model: codestral/codestral-latest
-editor-model: codetral/codestral-latest
+editor-model: codestral/codestral-latest
 architect: true
 read:
   -- rules.md
