@@ -23,10 +23,9 @@ def ask_question_and_save_results():
 
     #define Vectorshift API details
     url = "https://api.vectorshift.ai/api/pipelines/run"
-    "Api-Key": api_key
     headers = {
-        "Content-Type": "application/x-www-form-urlencoded",
-        "Api-Key": api_key
+       # "Content-Type": "application/x-www-form-urlencoded",
+        "Api-Key": api_key,
     }
 
     #Prepare the data payload with user input
@@ -35,7 +34,7 @@ def ask_question_and_save_results():
             "input_1": question
         }),
     "pipeline_name": "MyCoding Pipeline", #you should edit this to match the
-        name of your pipeline
+        #name of your pipeline:
     "user_name": "ubuntupunk", # change your Vectorshift username
     }
 
