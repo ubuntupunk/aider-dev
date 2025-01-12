@@ -11,16 +11,20 @@ file
                                                                                            
  1. Clone the repository:                                                                    
  
-`git clone https://github.com/yourusername/ask-bruno.git                                      
+```bash
+git clone https://github.com/yourusername/ask-bruno.git                                      
+```
                                                                                           
  2. Navigate to the project directory:                                                       
  
+```bash
 cd ask-bruno                                                                                 
-                                                                                           
+```                                                                                           
  3. Install the required packages:                                                           
   
-`pip install -r requirements.txt                                                              
-                                                                  
+```bash
+pip install -r requirements.txt                                                              
+```                                                                  
  4. Set your Vectorshift API key as an environment variable:                                 
 
 export VECTORSHIFT_API_KEY=your_api_key                                                      
@@ -29,7 +33,9 @@ export VECTORSHIFT_API_KEY=your_api_key
                                                                                             
  Run the script:                                                                             
   
-`python pipeline.py                                                                           
+```bash
+python pipeline.py                                                                           
+```
                                                                                         
  Follow the prompts to enter your question, the file name to save the results, and the outpu 
  format.                                                                                     
@@ -44,5 +50,7 @@ export VECTORSHIFT_API_KEY=your_api_key
  would like to change.                                                                       
                                                                                           
  Please make sure to update tests as appropriate.                                            
-                                                                                            
- ## License         
+                                                                         
+ ## License
+
+[MIT License](LICENSE)
